@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'clothing/clothing_page.dart';
+import 'notes/notes_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'GoogleSans',
         primarySwatch: Colors.blue,
       ),
-      home: ClothingPage(),
+      home: NotesPage(),
     );
   }
 }
