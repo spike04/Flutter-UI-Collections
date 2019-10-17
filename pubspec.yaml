@@ -59,6 +59,9 @@ flutter:
     - family: GoogleSans
       fonts:
         - asset: assets/fonts/GoogleSans-Regular.ttf
+    - family: Varela
+      fonts:
+        - asset: assets/fonts/VarelaRound-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

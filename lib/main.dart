@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'foodordering/food_dashboard_page.dart';
+import 'cookie_store/cookie_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'GoogleSans',
         primarySwatch: Colors.blue,
       ),
-      home: FoodDashboardPage(),
+      home: CookiePage(),
     );
   }
 }
