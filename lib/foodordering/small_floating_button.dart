@@ -1,0 +1,37 @@
+import 'package:flutter/material.dart';
+
+import '../common.dart';
+
+class SmallButton extends StatelessWidget {
+  final IconData icon;
+
+  const SmallButton(this.icon);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(right: 8.0),
+      child: Container(
+        decoration: BoxDecoration(
+          color: white,
+          borderRadius: BorderRadius.circular(20.0),
+          boxShadow: [
+            BoxShadow(
+              color: grey[200],
+              offset: Offset(2, 5),
+              blurRadius: 7,
+            ),
+          ],
+        ),
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Icon(
+            icon,
+            size: 16.0,
+            color: red,
+          ),
+        ),
+      ),
+    );
+  }
+}
