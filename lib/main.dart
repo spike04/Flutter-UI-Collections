@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'cookie_store/cookie_page.dart';
+import 'package:flutter_ui_collections/sonyshop/sony_listing.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'GoogleSans',
         primarySwatch: Colors.blue,
       ),
-      home: CookiePage(),
+      home: SonyListing(),
     );
   }
 }
