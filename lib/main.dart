@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_collections/sonyshop/sony_listing.dart';
+
+import 'coffee_shop/shop_dashboard.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'GoogleSans',
         primarySwatch: Colors.blue,
       ),
-      home: SonyListing(),
+      home: CoffeePage(),
     );
   }
 }
